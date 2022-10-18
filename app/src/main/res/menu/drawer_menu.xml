@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_puntos_venta"
+            android:title="Puntos de venta"
+            android:checked="true"
+            android:icon="@drawable/ic_baseline_home_24"
+            ></item>
+
+    <item
+        android:id="@+id/nav_soporte"
+        android:title="Soporte"
+        android:icon="@drawable/btn_style"
+        ></item>
+
+    <item
+        android:id="@+id/nav_cerrar_sesion"
+        android:title="Cerrar sesion"
+        android:icon="@drawable/btn_style"
+        ></item>
+
+
+    </group>
+    </menu>
+
+
+

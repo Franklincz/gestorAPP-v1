@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailPuntoVenta">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/toolberr"
+        android:background="@color/purple_500"
+
+        ></androidx.appcompat.widget.Toolbar>
+
+
+
+
+
+  <LinearLayout
+      android:layout_marginTop="50dp"
+
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:foregroundGravity="center"
+      android:layout_height="match_parent"
+      android:layout_gravity="center"
+
+      >
+      <androidx.cardview.widget.CardView
+          android:id="@+id/cardview"
+          app:cardCornerRadius="15dp"
+          android:layout_width="match_parent"
+          android:layout_marginStart="25dp"
+          android:layout_marginEnd="25dp"
+          android:layout_marginTop="25dp"
+          android:elevation="5dp"
+          android:layout_marginBottom="25dp"
+          android:layout_height="wrap_content"
+          >
+
+          <ImageView
+              android:id="@+id/imageFoto"
+              android:layout_width="260dp"
+
+android:layout_margin="15dp"
+              android:layout_gravity="center"
+              android:layout_height="260dp"
+              android:foregroundGravity="center"
+              android:src="@drawable/camera"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintVertical_bias="0.249"
+              tools:ignore="MissingConstraints"
+              tools:layout_editor_absoluteX="50dp"></ImageView>
+      </androidx.cardview.widget.CardView>
+
+      <Button
+          android:id="@+id/buttonvisitar"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:text="Visitar"
+          android:theme="@style/loginButton"
+          android:layout_gravity="center"
+          app:layout_constraintBottom_toBottomOf="parent"
+
+          app:layout_constraintVertical_bias="0.314"
+          tools:layout_editor_absoluteX="0dp"></Button>
+
+
+  </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

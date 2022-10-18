@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="150dp"
+    android:gravity="bottom"
+    android:paddingStart="5dp"
+    android:background="@color/purple_500"
+    >
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        android:layout_gravity="center"
+        ></ImageView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/usuario"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginStart="25dp"
+        android:text="User Maikom L"
+
+        ></TextView>
+    <TextView
+        android:layout_marginStart="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="user@gmail.com"
+        android:id="@+id/gmailusuario"
+
+        ></TextView>
+
+
+
+
+</LinearLayout>
